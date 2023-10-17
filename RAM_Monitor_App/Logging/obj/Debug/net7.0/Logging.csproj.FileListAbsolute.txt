@@ -1,0 +1,11 @@
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\bin\Debug\net7.0\Logging.deps.json
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\bin\Debug\net7.0\Logging.dll
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\bin\Debug\net7.0\Logging.pdb
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\Logging.AssemblyInfoInputs.cache
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\Logging.AssemblyInfo.cs
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\Logging.csproj.CoreCompileInputs.cache
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\Logging.dll
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\refint\Logging.dll
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\Logging.pdb
+D:\Mine\Workspace\RAM_Usage\RAM_Monitor\RAM_Monitor_App\Logging\obj\Debug\net7.0\ref\Logging.dll
