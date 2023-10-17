@@ -1,6 +1,6 @@
 ﻿namespace Logging
 {
-    internal static class ConsoleClass
+    public static class ConsoleClass
     {
         public static void SuccessLog(string log)
         {

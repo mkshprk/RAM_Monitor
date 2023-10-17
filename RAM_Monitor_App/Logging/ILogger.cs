@@ -12,5 +12,6 @@ namespace Logging
         void WriteFailureLogs(string logData);
         void WriteInfoLogs(string logData);
         void WriteWarningLogs(string logData);
+        void WriteUtilityLogs(string utilityName);
     }
 }

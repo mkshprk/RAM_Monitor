@@ -13,16 +13,14 @@ namespace Logging
         public WriteLogsToFile(string logFile)
         {
             this._logFile = logFile;
+            UpdateLogFile(logFile);
+            Directory.CreateDirectory(Path.GetDirectoryName(this._logFile));
+        }
 
-            if (File.Exists(logFile))
-            {
-                var createdOn = File.GetLastWriteTime(logFile);
-                var fileName = Path.GetFileName(logFile);
-
-                var newFileName = logFile.Replace(fileName, Path.GetFileNameWithoutExtension(logFile) + "_" + createdOn.ToString("HHmmss", CultureInfo.InvariantCulture) + ".txt");
-                File.Move(logFile, newFileName);
-            }
-
+        public WriteLogsToFile()
+        {
+            _logFile = Path.Combine(Directory.GetCurrentDirectory(), "Logs", "ExecutionLogs.txt");
+            UpdateLogFile(_logFile);
             Directory.CreateDirectory(Path.GetDirectoryName(this._logFile));
         }
 
@@ -48,6 +46,12 @@ namespace Logging
         {
             ConsoleClass.WarningLog(logData);
             WriteToFile(logData, StatusType.WARNING);
+        }
+
+        public void WriteUtilityLogs(string utilityName)
+        {
+            var text = $"--------------- {utilityName} ---------------";
+            WriteToFile(text, StatusType.INFO);
         }
 
         private void WriteToFile(string logData, StatusType statusType)
@@ -79,6 +83,18 @@ namespace Logging
             FAIL,
             WARNING,
             SUCCESS
+        }
+
+        private void UpdateLogFile(string logFile)
+        {
+            if (File.Exists(logFile))
+            {
+                var createdOn = File.GetLastWriteTime(logFile);
+                var fileName = Path.GetFileName(logFile);
+
+                var newFileName = logFile.Replace(fileName, Path.GetFileNameWithoutExtension(logFile) + "_" + createdOn.ToString("HHmmss", CultureInfo.InvariantCulture) + ".txt");
+                File.Move(logFile, newFileName); 
+            }
         }
     }
 }

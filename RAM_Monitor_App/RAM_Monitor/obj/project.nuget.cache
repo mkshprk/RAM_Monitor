@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1Cs07dgnwSaE29F+oRpN2EFduWORH1c4YuS4yZHx5yJeln4CpnBtIcSnEjHcUnOMo5xOkLN8uRWOuoJ1npufw==",
+  "dgSpecHash": "5mKif78lYg7DbDKGVLdFeC2G3jBZ2Fi8EQb2RthzTBiefVmqfgX7STruz9+79G8jo23EeI8xdkGv+VpoQMGYgw==",
   "success": true,
   "projectFilePath": "D:\\Mine\\Workspace\\RAM_Usage\\RAM_Monitor\\RAM_Monitor_App\\RAM_Monitor\\RAM_Monitor.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.diagnostics.performancecounter\\7.0.0\\system.diagnostics.performancecounter.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\z003tn9n\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
